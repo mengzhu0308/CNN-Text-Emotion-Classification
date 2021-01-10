@@ -89,7 +89,7 @@ if __name__ == '__main__':
         def on_epoch_end(self, epoch, logs=None):
             val_loss, val_acc = evaluate(self.model)
 
-            print(f'val_loss = {val_loss:.5f}, top-1 val_acc = {val_acc:.2f}')
+            print(f'val_loss = {val_loss:.5f}, val_acc = {val_acc:.2f}')
 
     evaluator = Evaluator()
 
