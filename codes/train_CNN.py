@@ -7,6 +7,7 @@
 '''
 
 import math
+import numpy as np
 import pandas as pd
 from gensim import corpora
 from keras.layers import Input
