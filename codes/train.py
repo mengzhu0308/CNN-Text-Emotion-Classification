@@ -3,7 +3,7 @@
 '''
 @Author:        ZM
 @Date and Time: 2020/12/13 16:28
-@File:          train_CNN.py
+@File:          train.py
 '''
 
 import math
